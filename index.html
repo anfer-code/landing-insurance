@@ -7,6 +7,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/destok.css" media="only screen and (min-width: 768px)">
+  <link rel="stylesheet" href="./css/destokBig.css" media="only screen and (min-width: 1200px)">
 </head> 
 <body>
   <header class="header">
@@ -16,7 +18,7 @@
       </div>
       <div class="hamburger">
         <div class="hamburger__img"><a href="#" id="hamburguer__img" onclick="toogleClass()" class="hamburger__open"></a></div>
-        <ul id="hamburguer__list" class="hamburger__list">
+        <ul id="hamburguer__list" class="hide">
           <li>How we work</li>
           <li>Blog</li>
           <li>Account</li>
@@ -27,18 +29,22 @@
     </nav>
   </header>
 
-  <section class="bg-header"></section>
+  <section class="top-section">
+    <section class="bg-header"></section>
 
-  <section class="insurance">
-    <div class="bg"></div>
-    <div class="insurance__container">
-      <h1 class="insurance__heading">Humanizing <br> your insurance.</h1>
-    <p class="insurance__text">Get your life insurance coverage easier and faster. We blend our expertise 
-      and technology to help you find the plan that’s right for you. Ensure you 
-      and your loved ones are protected.</p>
-    <a class="insurance__button" href="#">View plans</a>
-    </div>
+    <section class="insurance">
+      <div class="bg"></div>
+      <div class="insurance__container">
+        <h1 class="insurance__heading">Humanizing <br> your insurance.</h1>
+      <p class="insurance__text">Get your life insurance coverage easier and faster. We blend our expertise 
+        and technology to help you find the plan that’s right for you. Ensure you 
+        and your loved ones are protected.</p>
+      <a class="insurance__button" href="#">View plans</a>
+      </div>
+    </section>
   </section>
+
+  
 
   <main class="main">
     <div class="bg bg--main "></div>
@@ -71,7 +77,10 @@
     <section class="about">
       <div class="bg bg--about"></div>
       <h2 class="about__title">Find out more about how we work</h2>
-      <a class="about__button" href="#">How we work</a>
+      <div class="about__button-container">
+        <a class="about__button" href="#">How we work</a>
+      </div>
+      
     </section>
   </main>
 

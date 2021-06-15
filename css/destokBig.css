@@ -1,0 +1,26 @@
+.bg-header {
+    top: 200px;
+    right: 300px;
+}
+
+.insurance__heading{
+    font-size: 5rem;
+    padding-top: 60px;
+    position: relative;
+}
+
+.insurance__heading::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 150px;
+    top: 0px;
+    height:1px;
+    background-color: var(--light-gray);
+}
+
+.bg--main {
+    width: 400px;
+    height: 520px;
+    top: -520px;
+}
