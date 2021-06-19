@@ -11,6 +11,5 @@ function toogleClass() {
         list.classList.add("hide")
         list.classList.remove("hamburger__list")
         hamburguer.classList.remove("close")
-
     }
 }
